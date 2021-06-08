@@ -1,6 +1,7 @@
 default: &default
   adapter: postgresql
   encoding: unicode
+  # next 3 lines are for Rails to know about db connection
   host: db
   username: postgres
   password: password
